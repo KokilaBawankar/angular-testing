@@ -1,0 +1,36 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.paragraph {
+  text-indent: 30px;
+  border: 1px solid  #0e6ffd;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.underline-font {
+  text-decoration: underline;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.form-wrapper{
+  width: 500px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
